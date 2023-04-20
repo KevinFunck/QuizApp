@@ -1,14 +1,15 @@
 .container {
-    background-color: grey !important;
+    background-color: black !important;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
 body {
-    background-color: grey !important;   
+    background-color: black !important;   
 }
 
 
@@ -18,12 +19,15 @@ body {
     padding-top: 12px;
     display: flex;
     justify-content: space-between;
-
 }
 
 
 .quiz-card {
     width: 25rem; 
+    box-shadow:
+    inset 60px 0 120px #f0f,  /* left magenta */
+    inset -60px 0 120px #0ff; /* right cyan */
+    background-color: #fff;
 }
 
 
@@ -51,3 +55,22 @@ body {
 .final-headline {
     font-size: 30px;
 }
+
+
+.butto-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+
+.headline-position {
+    display: flex;
+    justify-content: center;   
+}
+
+
+@media(max-width: 1000px) {
+
+}
+
