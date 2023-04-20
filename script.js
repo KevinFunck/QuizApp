@@ -114,7 +114,6 @@ function answer(selection){
         document.getElementById(idOfRightAnswer).parentNode.classList.add('bg-success');
         audioWrong.play();
     }
-
     document.getElementById('next-button').disabled = false;
 }
 
@@ -124,8 +123,6 @@ function nextQuestion(){
     document.getElementById('next-button').disabled = true;
     resetAnswerButtons();
     showQuestion();
-
-
 }
 
 
@@ -148,6 +145,4 @@ function restartGame(){
      currentQuestion = 0;
      rightQuestions = 0;
      init();
-
-
 }
